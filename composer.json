@@ -1,0 +1,25 @@
+{
+    "name": "robinpmt/omnipay-payoo",
+    "description": "Payoo gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "payoo"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phan Minh Tuan",
+            "email": "phanminhtuan023654@gmail.com"
+        }
+    ],
+    "require": {
+        "omnipay/common": "^3.0",
+        "php-http/guzzle6-adapter": "^1.1|^2"
+    },
+    "autoload": {
+        "psr-4": { "Omnipay\\Payoo\\" : "src/" }
+    }
+}
